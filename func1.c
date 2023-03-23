@@ -6,7 +6,9 @@ void printhello(){
 }
 void printbye();
 int main(){
+    //Calls printhello()
     printhello();
+    //Calls printbye()
     printbye();
     return 0;
 }
