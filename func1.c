@@ -4,12 +4,11 @@
 void printhello(){
     printf("hello\n");
 }
-void printbye();
+void printbye(){
+    printf("good bye");
+}
 int main(){
     printhello();
     printbye();
     return 0;
-}
-void printbye(){
-    printf("good bye");
 }
